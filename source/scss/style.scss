@@ -1,0 +1,54 @@
+@import "_variables";
+
+a {
+  color: $light-blue;
+}
+
+input[type="button"] {
+  color: $dark-blue;
+  border-color: $middle-blue;
+  background-color: lighten($dark-blue, 50%);
+}
+
+body {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
+
+h1 {
+  font-size: $font-base-size * 2.25;
+}
+
+h2 {
+  font-size: $font-base-size * 2;
+}
+
+h3 {
+  font-size: $font-base-size * 1.75;
+}
+
+h4 {
+  font-size: $font-base-size * 1.5;
+}
+
+h5 {
+  font-size: $font-base-size * 1.25;
+}
+
+h6 {
+  font-size: $font-base-size * 1;
+}
+
+input {
+  font-size: $font-base-size;
+  border-radius: $border-radious;
+}
+
+textarea {
+  font-size: $font-base-size;
+  border-radius: $border-radious;
+}
+
+img {
+  border-radius: $border-radious;
+}
