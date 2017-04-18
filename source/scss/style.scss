@@ -4,10 +4,15 @@ a {
   color: $light-blue;
 }
 
+p {
+  font-family: $serif-fonts;
+}
+
 input[type="button"] {
   color: $dark-blue;
   border-color: $middle-blue;
   background-color: lighten($dark-blue, 50%);
+  border-radius: $border-radious;
 }
 
 body {
@@ -37,6 +42,14 @@ h5 {
 
 h6 {
   font-size: $font-base-size * 1;
+}
+
+figure {
+  font-family: $serif-fonts;
+}
+
+table {
+  font-family: $serif-fonts;
 }
 
 input {
